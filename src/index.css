@@ -1,0 +1,49 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+  background: url('components/images/bgimage_rc.png') right top,
+  url('components/images/bgimage_rm.png') right top,
+  url('components/images/bgimage_lc.png') left bottom,
+  url('components/images/bgimage_lm.png') left bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.googlebutton{
+  color: grey;
+  max-width: 260px;
+  border-radius: 8px !important;
+  width: 260px;
+  text-decoration: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.facebookbutton{
+  max-width: 260px;
+  border-radius: 8px !important;
+  width: 260px;
+  text-decoration: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+
+.walletStatusSeperator{
+  border: 0.5px solid;
+  transform: rotate(90deg);
+  display: flex ;
+  flex: none;
+  padding: 0 10px;
+  color: rgb(188, 187, 187);
+  margin-left: 8px;
+}
